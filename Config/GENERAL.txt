@@ -1,12 +1,12 @@
 #科学插件调整
 CONFIG_PACKAGE_luci-app-homeproxy=n
 #增加插件
-CONFIG_PACKAGE_luci-app-autoreboot=y
+CONFIG_PACKAGE_luci-app-autoreboot=n
 CONFIG_PACKAGE_luci-app-netspeedtest=y
-CONFIG_PACKAGE_luci-app-ttyd=y
-CONFIG_PACKAGE_luci-app-hd-idle=y
+CONFIG_PACKAGE_luci-app-ttyd=n
+CONFIG_PACKAGE_luci-app-hd-idle=n
 CONFIG_PACKAGE_luci-app-tailscale=n
-CONFIG_PACKAGE_luci-app-upnp=y
+CONFIG_PACKAGE_luci-app-upnp=n
 CONFIG_PACKAGE_luci-app-wolplus=n
 #删除插件
 CONFIG_PACKAGE_luci-app-samba4=y
@@ -107,4 +107,3 @@ CONFIG_PACKAGE_sgdisk=y
 CONFIG_PACKAGE_usbmuxd=y
 CONFIG_PACKAGE_screen=y
 CONFIG_PACKAGE_wget-ssl=y
-CONFIG_PACKAGE_samba4-server=y
